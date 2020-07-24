@@ -48,6 +48,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "88. 合并两个有序数�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "100. 相同的树", "100. 相同的树\100. 相同的树.vcxproj", "{A4F7F9AD-5B47-465C-AA02-8C53CE59D4A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "38. 外观数列", "38. 外观数列\38. 外观数列.vcxproj", "{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -216,6 +218,14 @@ Global
 		{A4F7F9AD-5B47-465C-AA02-8C53CE59D4A3}.Release|x64.Build.0 = Release|x64
 		{A4F7F9AD-5B47-465C-AA02-8C53CE59D4A3}.Release|x86.ActiveCfg = Release|Win32
 		{A4F7F9AD-5B47-465C-AA02-8C53CE59D4A3}.Release|x86.Build.0 = Release|Win32
+		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Debug|x64.ActiveCfg = Debug|x64
+		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Debug|x64.Build.0 = Debug|x64
+		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Debug|x86.Build.0 = Debug|Win32
+		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Release|x64.ActiveCfg = Release|x64
+		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Release|x64.Build.0 = Release|x64
+		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Release|x86.ActiveCfg = Release|Win32
+		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,6 +28,8 @@
 
 [35. 搜索插入位置](https://github.com/Bug01/LeetCode/tree/master/35.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE)
 
+[38. 外观数列]()
+
 [66. 加一](https://github.com/Bug01/LeetCode/tree/master/66.%20%E5%8A%A0%E4%B8%80)
 
 [67.二进制求和](https://github.com/Bug01/LeetCode/tree/master/67.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%B1%82%E5%92%8C)
