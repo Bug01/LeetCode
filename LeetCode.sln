@@ -50,6 +50,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "100. 相同的树", "100. �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "38. 外观数列", "38. 外观数列\38. 外观数列.vcxproj", "{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58. 最后一个单词的长度", "58. 最后一个单词的长度\58. 最后一个单词的长度.vcxproj", "{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -226,6 +228,14 @@ Global
 		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Release|x64.Build.0 = Release|x64
 		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Release|x86.ActiveCfg = Release|Win32
 		{AFB1101B-EA82-4BEA-9B8F-B027DE1D8B4A}.Release|x86.Build.0 = Release|Win32
+		{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}.Debug|x64.ActiveCfg = Debug|x64
+		{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}.Debug|x64.Build.0 = Debug|x64
+		{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}.Debug|x86.ActiveCfg = Debug|Win32
+		{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}.Debug|x86.Build.0 = Debug|Win32
+		{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}.Release|x64.ActiveCfg = Release|x64
+		{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}.Release|x64.Build.0 = Release|x64
+		{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}.Release|x86.ActiveCfg = Release|Win32
+		{7DA21ABD-3FFE-4B89-B8E7-BD1936A89984}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

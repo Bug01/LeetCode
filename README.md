@@ -28,7 +28,9 @@
 
 [35. 搜索插入位置](https://github.com/Bug01/LeetCode/tree/master/35.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE)
 
-[38. 外观数列]()
+[38. 外观数列](https://github.com/Bug01/LeetCode/tree/master/38.%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97)
+
+[58. 最后一个单词的长度]()
 
 [66. 加一](https://github.com/Bug01/LeetCode/tree/master/66.%20%E5%8A%A0%E4%B8%80)
 
