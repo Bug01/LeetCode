@@ -10,7 +10,11 @@
 
 [7. 整数反转](https://github.com/Bug01/LeetCode/tree/master/7.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC)
 
+[8. 字符串转换整数](https://github.com/Bug01/LeetCode/tree/master/8.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%95%B4%E6%95%B0)
+
 [9. 回文数](https://github.com/Bug01/LeetCode/tree/master/9.%20%E5%9B%9E%E6%96%87%E6%95%B0)
+
+[12. 整数转罗马数字]()
 
 [13. 罗马数字转整数](https://github.com/Bug01/LeetCode/tree/master/13.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0)
 
