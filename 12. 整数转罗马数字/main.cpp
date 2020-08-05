@@ -104,7 +104,7 @@ public:
 		//内存消耗：9.6 MB, 在所有 C++ 提交中击败了16.67%的用户
 	}
 
-	string intToRoman(int num)
+	string intToRoman3(int num)
 	{
 		string ret;
 		int tmp = 0;
@@ -127,17 +127,53 @@ public:
 		//执行用时：20 ms, 在所有 C++ 提交中击败了42.56%的用户
 		//内存消耗：9.6 MB, 在所有 C++ 提交中击败了16.67%的用户
 	}
-	
-};
 
+
+	string intToRoman(int num)
+	{
+		string ret;
+		map<int, string> dict = { {1000,"M"}, {900,"CM"}, {500,"D"}, {400,"CD"}, {100,"C"}, {90,"XC"}, {50,"L"}, {40,"XL"}, {10,"X"}, {9,"IX"}, {5,"V"}, {4,"IV"}, {1, "I"} };
+
+		int tmpNum = 0;
+		int mult = 1;
+		while (num > 0)
+		{
+			tmpNum = num % 10;
+			if (dict.count(tmpNum * mult) > 0) // 4, 5, 9
+			{
+				ret.insert(0, dict[tmpNum * mult]);
+			}
+			else if (tmpNum < 5) // 1,2,3
+			{
+				ret.insert(0, tmpNum, dict[mult][0]);
+			}
+			else if (tmpNum < 9) // 6,7,8
+			{
+				ret.insert(0, tmpNum - 5, dict[mult][0]);
+				ret.insert(0, dict[5 * mult]);
+
+			}
+
+			num /= 10;
+			mult *= 10;
+		}
+
+		return ret;
+
+		//执行用时：48 ms, 在所有 C++ 提交中击败了10.70%的用户
+		//内存消耗：13.2 MB, 在所有 C++ 提交中击败了7.95%的用户
+	}
+};
 
 
 int main()
 {
 	Solution s;
 	
-	for (int i = 1; i < 10; i++)
+	for (int i = 1; i < 11; i++)
 	{
 		std::cout << i << ":" << s.intToRoman(i) << std::endl;
 	}
+
+	std::cout <<  s.intToRoman(3999) << std::endl;
 }
